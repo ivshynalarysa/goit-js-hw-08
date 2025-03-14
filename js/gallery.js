@@ -102,9 +102,4 @@ function clickOnGallery(event){
 instance.show();
 }
 
-document.addEventListener("keydown", function onEscPress(event) {
-   if (event.key === "Escape") {
-      instance.close();
-     document.removeEventListener("keydown", this.onEscPress);
-   }
-  })
+
